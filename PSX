@@ -228,7 +228,7 @@ wait()
 end)
 MainWindow:Dropdown("Type", {flag = 'FarmingType', list = {'Multi Target', 'Chest', 'Multi Target', 'Highest Value', 'Nearest'}})
 MainWindow:Dropdown("If chest", {flag = 'FarmingSingleChest', list = Chests})
-MainWindow:Dropdown("Area", {flag = 'FarmingArea', list = {"Pixel Kyoto","Pixel Alps"}})
+MainWindow:Dropdown("Area", {flag = 'FarmingArea', list = {"Pixel Kyoto","Pixel Alps","Pixel Forest"}})
 MainWindow:Toggle("Collect Loot Bags", {flag = 'Lootbags', default = _G.Lootbags or false}, function()
     if MainWindow.flags.Lootbags then
         local Running = {}
