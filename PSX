@@ -324,7 +324,7 @@ EggsWindow:Button("Teleport Gamepass", function()
     table.insert(main,18674321)
 end)
 
-EggsWindow:Section("amGerard || Gerard#0001")
+EggsWindow:Section("Free EZ")
 
 --Anti AFK stolen from infinite yield // the readily available old one :)
 local GC = getconnections or get_signal_cons
